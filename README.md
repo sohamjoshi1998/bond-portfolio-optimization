@@ -1,5 +1,5 @@
 # bond-portfolio-optimization
-Credit Risk-Based Bond Portfolio Optimization
+Quant Project 1 - Credit Risk-Based Bond Portfolio Optimization
 
 # Credit Risk-Based Bond Portfolio Optimization
 
