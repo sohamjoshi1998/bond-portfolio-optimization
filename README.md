@@ -1,6 +1,72 @@
 # bond-portfolio-optimization
 Quant Project 1 - Credit Risk-Based Bond Portfolio Optimization
 
+# 📊 Credit Risk-Based Bond Portfolio Optimization
+
+This project builds a Python-based framework to optimize a corporate bond portfolio by adjusting returns for credit risk. It incorporates **Expected Credit Loss (ECL)** using **PD (Probability of Default)**, **LGD (Loss Given Default)**, and **EAD (Exposure at Default)**, then applies portfolio optimization techniques to maximize risk-adjusted returns.
+
+## 🚀 Overview
+
+Traditional portfolio optimization often overlooks credit risk. This model integrates credit risk into expected returns and applies modern portfolio theory to build an optimized bond portfolio.
+
+---
+
+## 🔧 Features
+
+- Simulate or ingest real-world bond data
+- Calculate ECL for each bond
+- Adjust returns using credit loss
+- Portfolio optimization using **PyPortfolioOpt**
+- Visualize credit risk impact (ECL by bond)
+- Extendable to include **scenario analysis** or **stress testing**
+
+---
+
+## 📈 Sample Output
+
+![ECL Plot](reports/ecl_plot.png) <!-- Replace with actual image if available -->
+
+---
+
+## 📦 Tech Stack
+
+- **Python**
+- `Pandas`, `NumPy`, `Matplotlib`
+- `PyPortfolioOpt` for optimization
+- (Optional: `Streamlit` for dashboard)
+
+---
+
+## 🧠 Concepts Applied
+
+- Expected Credit Loss (ECL) = PD × LGD × EAD
+- Mean-Variance Optimization
+- Sharpe Ratio Maximization
+- Risk-adjusted Return Modeling
+
+---
+
+## 🚧 Future Enhancements
+
+- 🏦 Add sector and issuer-level constraints  
+- 📉 Run scenario-based stress testing  
+- 📊 Develop interactive dashboard (Streamlit/Plotly)  
+- 🔍 Integrate market data APIs (FRED/FINRA)  
+
+---
+
+## 📚 References
+
+- Basel II/III Credit Risk Framework
+- PyPortfolioOpt Documentation
+- FRM Curriculum: Credit Risk & Portfolio Management
+
+---
+
+## 🧑‍💻 Author
+
+**Soham Joshi**  
+
 # Credit Risk-Based Bond Portfolio Optimization
 
 # === Project Structure ===
